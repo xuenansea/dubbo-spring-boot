@@ -23,4 +23,10 @@
         <apache.dubbo.version>2.7.8</apache.dubbo.version>
     </properties>
 
+    <!-- 注意依赖的版本控制，
+     spring-boot.version：2.2.x
+     alibaba.dubbo.version: 可以使用0.2.0，但是0.2.1还不兼容
+     apache.dubbo.version： 2.7.10不兼容，但是2.7.6可以，注意注解式引用处理
+ -->
+
 </project>
