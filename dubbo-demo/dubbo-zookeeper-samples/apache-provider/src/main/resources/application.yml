@@ -2,7 +2,7 @@ dubbo:
   application:
     name: apache-zk-provider
   registry:
-    address: zookeeper://81.69.255.17:5500
+    address: 81.69.255.17:5500
     protocol: zookeeper
     check: false
   protocol:

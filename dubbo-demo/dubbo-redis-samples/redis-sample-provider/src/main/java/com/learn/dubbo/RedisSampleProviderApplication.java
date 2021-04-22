@@ -6,8 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @EnableDubbo
-public class ApacheConsumerApplication {
+public class RedisSampleProviderApplication {
+
     public static void main(String[] args) {
-        SpringApplication.run(ApacheConsumerApplication.class, args);
+        SpringApplication.run(RedisSampleProviderApplication.class, args);
     }
 }

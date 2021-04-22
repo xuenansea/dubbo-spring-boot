@@ -3,7 +3,6 @@ server:
 spring:
   application:
     name: apache-zk-consumer
-
 dubbo:
   application:
     name: apache-zk-consumer
