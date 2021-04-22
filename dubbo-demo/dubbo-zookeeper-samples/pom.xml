@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>dubbo-demo</artifactId>
+        <groupId>com.learn.dubbo</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>dubbo-zookeeper-samples</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>alibaba-provider</module>
+        <module>alibaba-consumer</module>
+        <module>apache-provider</module>
+        <module>apache-consumer</module>
+    </modules>
+
+    <properties>
+        <spring-boot.version>2.2.4.RELEASE</spring-boot.version>
+        <alibaba.dubbo.version>0.2.0</alibaba.dubbo.version>
+        <apache.dubbo.version>2.7.10</apache.dubbo.version>
+    </properties>
+
+</project>

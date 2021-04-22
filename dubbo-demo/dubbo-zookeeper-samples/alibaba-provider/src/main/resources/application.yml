@@ -1,0 +1,17 @@
+dubbo:
+  application:
+    name: alibaba-zk-provider
+  registry:
+    address: zookeeper://81.69.255.17:5500
+    protocol: zookeeper
+    check: false
+
+  protocol:
+    name: dubbo
+    port: 20001
+#  consumer:
+#    check: false
+#    timeout: 3000
+  provider:
+    timeout: 3000
+

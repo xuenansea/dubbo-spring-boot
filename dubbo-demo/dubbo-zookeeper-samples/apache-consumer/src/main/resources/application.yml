@@ -1,0 +1,19 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: apache-zk-consumer
+
+dubbo:
+  application:
+    name: apache-zk-consumer
+  registry:
+    address: zookeeper://81.69.255.17:5500
+    protocol: zookeeper
+    check: false
+  protocol:
+    name: dubbo
+    port: 20004
+  consumer:
+    timeout: 3000
+    check: false
