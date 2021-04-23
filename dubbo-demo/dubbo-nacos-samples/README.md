@@ -1,4 +1,5 @@
 ## windows下nacos-server安装单体服务处理
+    1、在 https://github.com/alibaba/nacos/releases 下载 nacos-server-xxx.zip 
     
     1、在自己的mysql数据库中新建一个数据库，名字为nacos
     
