@@ -15,7 +15,7 @@ dubbo:
     password: redis1234
   protocol:
     name: dubbo
-    port: 20006
+    port: -1
   consumer:
     timeout: 3000
     check: false
