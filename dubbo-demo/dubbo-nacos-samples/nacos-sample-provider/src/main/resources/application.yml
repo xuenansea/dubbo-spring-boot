@@ -1,0 +1,19 @@
+dubbo:
+  application:
+    name: apache-nacos--provider
+  registry:
+    address: 127.0.0.1:8848
+    protocol: nacos
+    check: false
+    password: nacos
+    username: nacos
+  protocol:
+    name: dubbo
+    port: -1
+  provider:
+    timeout: 3000
+  consumer:
+    check: false
+    retries: 2
+    loadbalance: roundrobin
+    timeout: 3000

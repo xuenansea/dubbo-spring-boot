@@ -15,6 +15,7 @@
         <module>dubbo-api</module>
         <module>dubbo-zookeeper-samples</module>
         <module>dubbo-redis-samples</module>
+        <module>dubbo-nacos-samples</module>
     </modules>
 
     <properties>
