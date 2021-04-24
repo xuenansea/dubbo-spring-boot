@@ -17,8 +17,17 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
-        <spring-boot.maven.plugin.version>2.4.0</spring-boot.maven.plugin.version>
+        <spring-boot.maven.plugin.version>2.2.4.RELEASE</spring-boot.maven.plugin.version>
     </properties>
+
+    <!-- 这个可以使每个服务打包成jar后，可以正常启动 -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.4.RELEASE</version>
+        <relativePath/>
+    </parent>
+
     <build>
         <plugins>
             <plugin>
