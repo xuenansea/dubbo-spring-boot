@@ -2,11 +2,12 @@
 dubbo &amp; springboot learn demo
 
     1、dubbo搭配springboot使用样例，
+    2、初始版本，简单 服务提供者与服务消费者配置
     
  
 ## 项目节点介绍
 
-
+  
 项目目录| 模块简介 | 其他介绍
 ------ | -----|---------
 dubbo-demo/dubbo-api                |   项目暴露接口              |           
