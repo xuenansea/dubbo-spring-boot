@@ -17,7 +17,8 @@ public class DemoController {
 
     @DubboReference(
             version = "1.0.0",
-            loadbalance = RoundRobinLoadBalance.NAME
+            loadbalance = RoundRobinLoadBalance.NAME,
+            async = false
     )
     private DemoService demoService;
 
