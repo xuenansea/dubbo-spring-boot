@@ -6,9 +6,7 @@ import org.apache.dubbo.rpc.cluster.loadbalance.RoundRobinLoadBalance;
 
 @DubboService(
         version = "1.0.0",
-//        protocol = "dubbo",
         loadbalance = RoundRobinLoadBalance.NAME
-
 )
 public class DemoServiceImpl implements DemoService {
     public String sayHello(String data) {
