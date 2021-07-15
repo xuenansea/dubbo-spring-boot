@@ -23,5 +23,14 @@
         <alibaba.dubbo.version>0.2.0</alibaba.dubbo.version>
         <apache.dubbo.version>2.7.10</apache.dubbo.version>
     </properties>-->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>${spring-boot.maven.plugin.version}</version>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
